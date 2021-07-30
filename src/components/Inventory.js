@@ -34,7 +34,6 @@ class Inventory extends React.Component {
   }
 
   authHandler = async (authData) => {
-    console.log(authData);
     const store = await base.fetch(this.props.storeId, {
       context: this,
     });
